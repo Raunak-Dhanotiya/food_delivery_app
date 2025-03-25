@@ -1,0 +1,44 @@
+name: food
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  firebase_core: ^3.12.1
+  cloud_firestore: ^5.6.5
+  geolocator: ^10.1.0
+  geocoding: ^2.1.0
+  google_maps_flutter: ^2.5.0
+
+
+  font_awesome_flutter: ^10.6.0
+  flutter_native_splash: ^2.4.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/F1.png
+    - assets/images/map_placeholder.png
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/img.png
+  android: true
+  ios: true
+  fullscreen: true
