@@ -35,6 +35,14 @@ flutter:
   assets:
     - assets/images/F1.png
     - assets/images/map_placeholder.png
+    - assets/images/restaurant1.webp
+    - assets/images/restaurant2.webp
+    - assets/images/restaurant3.webp
+    - assets/images/restaurant4.jpg
+    - assets/images/restaurant5.jpg
+    - assets/images/restaurant6.jpg
+    - assets/images/restaurant7.jpg
+    - assets/images/restaurant8.jpg
 
 flutter_native_splash:
   color: "#FFFFFF"
